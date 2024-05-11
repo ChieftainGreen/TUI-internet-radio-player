@@ -3,6 +3,8 @@ To edit the radiostation list, modify STATIONLIST below.
 Not all stream types are working, unfortunately.
 pls/m3u/etc playlists not supported. Only mp3 streams accepted.
 
+![screenshot](screenshot.png)
+
 HOW TO RUN:
 run "pip install requriements.txt" (miniaudio, textual)
 run "python main.py"
