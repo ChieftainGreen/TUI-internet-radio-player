@@ -1,0 +1,32 @@
+Screen {
+    background: $surface-darken-1;
+}
+
+#buttonbar {
+    height: 5;
+    border: blue;
+    align: center top;
+}
+
+
+#top1_list_of_urls {
+    width: 100%;
+    background: $panel;
+}
+
+#top2_log {
+    width: 100%;
+    height: 7;
+    background: rebeccapurple;
+}
+
+#histogram {
+    height: 6;
+    background: $panel;
+}
+
+#display {
+    width: 70%;
+    height: 6;
+    background: purple;
+}

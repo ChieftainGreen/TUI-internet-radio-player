@@ -1,0 +1,2 @@
+miniaudio==1.59
+textual==0.59.0
