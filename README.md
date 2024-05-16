@@ -32,8 +32,8 @@ HOW TO RUN:
 run "pip install -r requriements.txt" (py/miniaudio, textual)  
 run "python main.py"  
 
-recommended Windows Terminal, but cmd is more or less ok.
-!unfortunately, Microsoft C++ Build Tools **(6 GB)** seems to be required to install miniaudio for python
+recommended Windows Terminal, but cmd is more or less ok.  
+!unfortunately, Microsoft C++ Build Tools **(6 GB)** seems to be required to install miniaudio for python  
 
 TODO - make working next and previous buttons, mouse clicks  
 
