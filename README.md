@@ -19,17 +19,17 @@ TODO - работа кнопок «Next» и «Previous», а также упр�
 TODO — гистограмма аудиопотока.  
 кажется, у miniaudio нет такой опции? или что-то вроде DecodedSoundFile?  
 может от системной громкости/микшера?..  
-для демонстрации, может быть, sparklines?  
+может быть, sparklines?  
 
 TODO - на месте планируемой гистограммы, сделать индикатор прогресса "нажатие/событие", чтобы замаскировать ~1-2 секундную задержку загрузки аудиопотока.  
 
 Internet radio player with Textual interface.  
-To edit the radiostation list, modify STATIONLIST below.  
+To edit the radiostation list, modify STATIONLIST in the script.  
 Not all stream types are working, unfortunately. mp3 streams accepted..  
 pls/m3u/etc playlists not supported.  
 
 HOW TO RUN:  
-run "pip install -r requriements.txt" (py/miniaudio, textual)  
+run "pip install -r requriements.txt" (miniaudio, textual)  
 run "python main.py"  
 
 recommended Windows Terminal, but cmd is more or less ok.  
