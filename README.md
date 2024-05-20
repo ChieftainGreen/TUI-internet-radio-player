@@ -12,7 +12,8 @@
 запустите «python main.py»  
 
 рекомендуется Windows Terminal, но с cmd более-менее все в порядке.  
-!к сожалению, для установки miniaudio на Windows потребуется Microsoft C++ Build Tools **(6 GB)**.  
+работа проверена под Windows для Python 3.11  
+!к сожалению, для установки miniaudio на Windows Python 3.12 потребуется Microsoft C++ Build Tools **(6 GB)** в связи с отсутствием wheels/бинарников miniaudio.  
 
 TODO - работа кнопок «Next» и «Previous», а также управление мышью  
 
@@ -22,6 +23,8 @@ TODO — гистограмма аудиопотока.
 может быть, sparklines?  
 
 TODO - на месте планируемой гистограммы, сделать индикатор прогресса "нажатие/событие", чтобы замаскировать ~1-2 секундную задержку загрузки аудиопотока.  
+
+*************************  
 
 Internet radio player with Textual interface.  
 To edit the radiostation list, modify STATIONLIST in the script.  
@@ -33,7 +36,8 @@ run "pip install -r requriements.txt" (miniaudio, textual)
 run "python main.py"  
 
 recommended Windows Terminal, but cmd is more or less ok.  
-!unfortunately, Microsoft C++ Build Tools **(6 GB)** seems to be required to install miniaudio for python  
+tested on Windows Python 3.11  
+!unfortunately, for Python 3.12, Microsoft C++ Build Tools **(6 GB)** seems to be required to install miniaudio due to lack of wheels/binaries.  
 
 TODO - make working next and previous buttons, mouse clicks  
 
